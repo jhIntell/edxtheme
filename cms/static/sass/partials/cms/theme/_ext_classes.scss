@@ -55,62 +55,31 @@
     div.tipLight
     {
         background-color: #ebf3c9;
-        background-image: url('https://dev.cms.intellcreative.ca/assets/COMPEN2.png');
         border-left: solid 4px #A9C92D;
-        background-position: -9px 0px;
         background-repeat: no-repeat;
         border-radius: 6px;
         line-height: 18px;
         overflow: hidden;
-        padding: 10px 90px;
-        background-size: 90px 90px;
-        background-position-y: center;
+        padding: 5px 150px;
+        padding-right: 30px;
+        width: 750px;
+        position: relative;
     }
 
-    div.tipImg2
-    {
-        background-color: #ebf3c9;
-        background-image: url('https://dev.cms.intellcreative.ca/assets/COMPEN2.png');
-        border-left: solid 4px #A9C92D;
-        background-position: -9px 0px;
-        background-repeat: no-repeat;
-        border-radius: 6px;
-        line-height: 18px;
-        overflow: hidden;
-        padding: 10px 90px;
-        background-size: 90px 90px;
-        background-position-y: center;
+    div.tipLight::before {
+        display: inline-block;
+        width: 136px;
+        height: -webkit-fill-available;
+        content: "";
+        background: url(https://dev.cms.intellcreative.ca/assets/tip-icon-01.png) no-repeat 0 0;
+        background-size: 65px 65px;
+        position: absolute;
+        left: 0em;
+        top: 0%;
+        background-color: #A9C92D;
+        background-position: center;
     }
 
-    div.tipImg3
-    {
-        background-color: #ebf3c9;
-        background-image: url('https://dev.cms.intellcreative.ca/assets/COMPEN2.png');
-        border-left: solid 4px #A9C92D;
-        background-position: -9px 0px;
-        background-repeat: no-repeat;
-        border-radius: 6px;
-        line-height: 18px;
-        overflow: hidden;
-        padding: 10px 90px;
-        background-size: 90px 90px;
-        background-position-y: center;
-    }
-
-    div.tipImage4
-    {
-        background-color: #ebf3c9;
-        background-image: url('https://dev.cms.intellcreative.ca/assets/COMPEN2.png');
-        border-left: solid 4px #A9C92D;
-        background-position: -9px 0px;
-        background-repeat: no-repeat;
-        border-radius: 6px;
-        line-height: 18px;
-        overflow: hidden;
-        padding: 10px 90px;
-        background-size: 90px 90px;
-        background-position-y: center;
-    }
 
     .purple {
         background-color: #723DFF;
