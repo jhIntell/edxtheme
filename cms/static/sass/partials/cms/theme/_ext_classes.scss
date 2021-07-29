@@ -52,7 +52,7 @@
         height: 150px;
     }
 
-    div.tipLight
+    div.lms-tip-01
     {
         background-color: #E3E2FF;
         background-repeat: no-repeat;
@@ -65,22 +65,17 @@
         position: relative;
     }
 
-    div.tipLight::before {
+    div.lms-tip-01::before {
         display: inline-block;
         width: 90px;
         height: -webkit-fill-available;
         content: "";
-        background: url(https://dev.cms.intellcreative.ca/assets/tip-icon-01.png) no-repeat 0 0;
+        background: url('https://dev.cms.intellcreative.ca/assets/tip-icon-01.png') no-repeat 0 0;
         background-size: 65px 65px;
         position: absolute;
         left: 0em;
         top: 0%;
         background-color: #837FFA;
         background-position: center;
-    }
-
-
-    .purple {
-        background-color: #723DFF;
     }
 }
